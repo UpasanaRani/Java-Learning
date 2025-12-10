@@ -41,8 +41,8 @@ public class loops {
         int n = sc.nextInt();
         int rev = 0;
         while (n != 0) {
-            int digit = n % 10;// get last digit
-            rev = rev * 10 + digit;// build reverse
+            // int digit = n % 10;// get last digit
+            rev = rev * 10 + n % 10;// build reverse
             n = n / 10;// remove last digit
         }
         System.out.println("Reserved number=" + rev);
