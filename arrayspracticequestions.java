@@ -13,13 +13,23 @@ public class arrayspracticequestions {
 
         // problem 2
         // find sum of elements
+        // int arr[] = { 2, 3, 4, 5 };
+        // int sum = 0;
+        // for (int x : arr) {
+        // sum += x;
+
+        // }
+        // System.out.println(sum);
+
+        // problem 3
+        // average of elements
         int arr[] = { 2, 3, 4, 5 };
         int sum = 0;
         for (int x : arr) {
             sum += x;
-
         }
-        System.out.println(sum);
+        double average = (double) sum / arr.length;
+        System.out.println("average:" + average);
 
     }
 
