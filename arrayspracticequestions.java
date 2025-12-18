@@ -56,20 +56,28 @@ public class arrayspracticequestions {
         // problem 6
         // count even and odd numbers
 
+        // int arr[] = { 1, 2, 3, 4, 5 };
+        // int evencount = 0;
+        // int oddcount = 0;
+        // for (int x : arr) {
+        // if (x % 2 == 0) {
+        // evencount++;
+        // } else {
+        // oddcount++;
+        // }
+
+        // }
+
+        // System.out.println("even numbers count:" + evencount);
+        // System.out.println("odd numbers count:" + oddcount);
+
+        // problem 7
+        // print elements in reverse order
         int arr[] = { 1, 2, 3, 4, 5 };
-        int evencount = 0;
-        int oddcount = 0;
-        for (int x : arr) {
-            if (x % 2 == 0) {
-                evencount++;
-            } else {
-                oddcount++;
-            }
+        for (int i = arr.length - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
 
         }
-
-        System.out.println("even numbers count:" + evencount);
-        System.out.println("odd numbers count:" + oddcount);
 
     }
 
