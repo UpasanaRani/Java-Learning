@@ -44,14 +44,32 @@ public class arrayspracticequestions {
 
         // problem 5
         // find minimum element
-        int arr[] = { -2, 54, -97, 200 };
-        int min = arr[0];
+        // int arr[] = { -2, 54, -97, 200 };
+        // int min = arr[0];
+        // for (int x : arr) {
+        // if (x < min) {
+        // min = x;
+        // }
+        // }
+        // System.out.println(min);
+
+        // problem 6
+        // count even and odd numbers
+
+        int arr[] = { 1, 2, 3, 4, 5 };
+        int evencount = 0;
+        int oddcount = 0;
         for (int x : arr) {
-            if (x < min) {
-                min = x;
+            if (x % 2 == 0) {
+                evencount++;
+            } else {
+                oddcount++;
             }
+
         }
-        System.out.println(min);
+
+        System.out.println("even numbers count:" + evencount);
+        System.out.println("odd numbers count:" + oddcount);
 
     }
 
