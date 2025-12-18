@@ -33,14 +33,25 @@ public class arrayspracticequestions {
 
         // problem 4
         // find maximum element
-        int arr[] = { 2, 3, 4, 5 };
-        int max = arr[0];
+        // int arr[] = { 2, 3, 4, 5 };
+        // int max = arr[0];
+        // for (int x : arr) {
+        // if (x > max) {
+        // max = x;
+        // }
+        // }
+        // System.out.println("maximum number is:" + max);
+
+        // problem 5
+        // find minimum element
+        int arr[] = { -2, 54, -97, 200 };
+        int min = arr[0];
         for (int x : arr) {
-            if (x > max) {
-                max = x;
+            if (x < min) {
+                min = x;
             }
         }
-        System.out.println("maximum number is:" + max);
+        System.out.println(min);
 
     }
 
