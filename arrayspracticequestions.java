@@ -23,13 +23,24 @@ public class arrayspracticequestions {
 
         // problem 3
         // average of elements
+        // int arr[] = { 2, 3, 4, 5 };
+        // int sum = 0;
+        // for (int x : arr) {
+        // sum += x;
+        // }
+        // double average = (double) sum / arr.length;
+        // System.out.println("average:" + average);
+
+        // problem 4
+        // find maximum element
         int arr[] = { 2, 3, 4, 5 };
-        int sum = 0;
+        int max = arr[0];
         for (int x : arr) {
-            sum += x;
+            if (x > max) {
+                max = x;
+            }
         }
-        double average = (double) sum / arr.length;
-        System.out.println("average:" + average);
+        System.out.println("maximum number is:" + max);
 
     }
 
